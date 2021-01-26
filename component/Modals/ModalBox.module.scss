@@ -1,0 +1,30 @@
+.modal {
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(150, 147, 155, 0.4);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100000000000;
+    height: 100%;
+}
+
+.modal--no_opacity {
+    background-color: #ffffff;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100000000000;
+    height: 100%;
+}
+.modal--active {
+    display: flex;
+}
